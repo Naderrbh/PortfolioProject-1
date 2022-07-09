@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    background-color:#0C0F0A;
+    color: white;
+}
+.container {
+    margin-bottom: 5rem;
+}
+.navbar {
+    display:block;
+    padding-top: 0.5em;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #0C0F0A;
+    height: 60px;
+    border-bottom: 1px solid #FE277E;
+}
+.mynavbar {
+    width: 100%;
+    display: flex;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.list-navbar ul {
+    display: flex;
+    display:inline-flex;
+    text-decoration: none;
+}
+.list-navbar ul li {
+    list-style-type: none;
+}
+.list-navbar ul li a {
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+}
+.cv a , .header-contactme , .about-contactme{
+    text-decoration: none;
+    color: white;
+}
+.list-navbar ul li a:hover , .cv a:hover , .header-contactme:hover , .about-contactme:hover{
+    color:#FE277E;
+    text-decoration: underline #FE277E;
+}
+.home-page, .about-page {
+    width: 100%;
+    display: flex;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 175px;
+    align-items: center;
+    
+}
+.intro-nader {
+    letter-spacing: 8px;
+    text-align: center;
+}
+.home-image-nader img {
+    border: dotted 2px #FE277E;
+    border-radius: 50%;
+    padding: 10px;
+    outline: #FE277E 2px dotted;
+}
+.about-image-nader img {
+    border:#FE277E 2px solid;
+    border-radius: 3%;
+    padding: 10px;
+}
+.social-icon-home {
+    padding-top: 25px;
+}
+.about-nader {
+    padding-left: 100px;
+    text-align: center;
+    line-height: 1.8em;
+}
+.about-nader h2 {
+    padding-bottom: 30px;
+    color: #FE277E;
+}
+.services-page {
+    text-align:center;
+}
+.myservices h1 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 0.75em;
+}
+.card-myservices {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+}
+.card-service-web {
+    background-color:#1b1d1d42;
+    padding: 8px;
+    border: 30%;
+    border-radius: 3%;
+    line-height: 50px;
+}
+.card-service-web i {
+    color:#FE277E;
+    font-size:35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.card-service-web p {
+    color:#808080bf;
+}
+.hireme {
+    background-color:#1b1d1d42 ;
+    text-align: center;
+    padding: 2em 0;
+}
+.hireme p {
+    font-size:larger;
+    letter-spacing: 8px;
+}
+.skills-page {
+    width: 100%;
+    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skill {
+    padding: 15px 40px;
+    
+}
+.skill i {
+    font-size: 700%;
+}
+.para-skill, .para-skill-mongodb{
+    padding-top: 15px;
+    font-size: 20px;
+    display: none;
+}
+.skill:hover {
+    color: #FE277E;
+}
+.skill:hover .para-skill {
+    display: block;
+}
+.skill:hover .para-skill-mongodb {
+    color: green;
+    display: block;
+}
+.adresse {
+    text-align:center;
+    line-height: 2em;
+    background-color:#1b1d1d42 ;
+    padding: 15px 0;
+}
+.mail, .tel {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.mail:hover , .tel:hover , .social-icon:hover {
+    color: #FE277E;
+}
+.social-icon {
+    font-size: 35px;
+    padding-right: 20px;
+    color:white;
+}
